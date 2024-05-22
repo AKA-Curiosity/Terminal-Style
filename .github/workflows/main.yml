@@ -55,4 +55,4 @@ jobs:
         run: |
           git add .
           git commit -m "Github Stats updated 🎉" || echo "No changes to commit"
-          git push https://oauth2:${{ secrets.PAT }}@github.com/${{ github.repository_owner }}/${{ github.repository }}.git HEAD:main
+          git push https://oauth2:${{ secrets.PAT }}@github.com/AKA-Curiosity/Terminal-Style.git HEAD:main

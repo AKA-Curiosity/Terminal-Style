@@ -49,9 +49,10 @@ jobs:
         env:
           GHT: ${{ secrets.GHT }}
           
-      # Commiting
-      - name: commiting changed svg template
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
         run: |
           git add .
-          git commit -m "Github Stats updated 🎉" || echo
-          git push
+          git commit -m "Github Stats updated 🎉" || echo "No changes to commit"
+          git push https://oauth2:${{ secrets.PAT }}@github.com/${{ github.repository_owner }}/${{ github.repository }}.git HEAD:main

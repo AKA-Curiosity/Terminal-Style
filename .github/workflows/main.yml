@@ -5,6 +5,10 @@ on:
     - cron: "10 2 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write  # Права для записи содержимого репозитория
+  pages: write     # Права для записи на GitHub Pages
+
 jobs:
   build:
     runs-on: ubuntu-latest

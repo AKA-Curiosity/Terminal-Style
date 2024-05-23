@@ -75,24 +75,24 @@
             /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
                them as needed.
                gjm8 color theme (source: https://terminal.sexy/) */
-            .foreground {fill: #ffffff}
-            .background {fill: #300a24}
+            .foreground {fill: #1155A7}
+            .background {fill: #FF9E06}
             .color0 {fill: #272822}
-            .color1 {fill: #f92672}
+            .color1 {fill: #04A77A}
             .green {fill: #ffffff}
-            .color3 {fill: #f4bf75}
-            .color4 {fill: #66d9ef}
+            .color3 {fill: #04A77A}
+            .color4 {fill: #04A77A}
             .purple {fill: #ffffff}
             .color6 {fill: #ffffff}
-            .color7 {fill: #f8f8f2}
-            .color8 {fill: #75715e}
-            .color9 {fill: #fd971f}
-            .color10 {fill: #5cbe09}
-            .color11 {fill: #49483e}
+            .color7 {fill: #04A77A}
+            .color8 {fill: #04A77A}
+            .color9 {fill: #04A77A}
+            .color10 {fill: #04A77A}
+            .color11 {fill: #04A77A}
             .color12 {fill: #ffffff}
-            .color13 {fill: #f5f4f1}
+            .color13 {fill: #04A77A}
             .orange {fill: #ffffff}
-            .color15 {fill: #f9f8f5}
+            .color15 {fill: #04A77A}
         </style>
     </defs>
     <rect id="terminalui" class="background" width="100%" height="100%" ry="4.5826941" />

@@ -42,14 +42,14 @@ jobs:
           git config --global user.name "Github Actions"
           git config --global user.email "action@github.com"
           git pull
-          
+
       - name: Update Template
         run: |
           node updater.js ${{ github.repository_owner }} ubuntu
         env:
           GHT: ${{ secrets.GHT }}
           
-      # Commiting
+      # Commitin
       - name: commiting changed svg template
         run: |
           git add .

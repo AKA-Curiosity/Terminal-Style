@@ -1,13 +1,13 @@
 {
     "ubuntu": {
         "name": "ubuntu",
-        "back": "#300a24",
-        "fore": "#ffffff",
+        "back": "#FF9E06",
+        "fore": "#1155A7",
         "green": "#ffffff",
         "purple": "#ffffff",
         "orange": "#ffffff",
         "cyan": "#ffffff",
-        "username": "#5cbe09"
+        "username": "#04A77A"
     },
     "default": {
         "name": "default",
